@@ -19,3 +19,5 @@
 	right: auto;
 	left: 5.6%;
 }
+
+code { direction: ltr; }

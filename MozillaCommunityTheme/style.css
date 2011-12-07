@@ -121,7 +121,9 @@ html { background: #33559B; }
 }
 
 .left-sidebar #content {
-	width: 67%;
+	width: 69%;
+	margin-right: 5%;
+	
 }
 #content hr {
 /*	background-image: url(http://mozcom-cdn.mozilla.net/img/covehead/divider-main.jpg); */

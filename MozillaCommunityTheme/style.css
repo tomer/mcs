@@ -55,6 +55,13 @@ body {
 
 #access {
     background: #2e89ca;
+
+    background-image: -webkit-linear-gradient(top, #2e88c9, #1c5a9a); 
+    background-image:    -moz-linear-gradient(top, #2e88c9, #1c5a9a);
+    background-image:     -ms-linear-gradient(top, #2e88c9, #1c5a9a);
+    background-image:      -o-linear-gradient(top, #2e88c9, #1c5a9a); 
+    background-image:         linear-gradient(top, #2e88c9, #1c5a9a);
+
     border-radius: 5px;
 /*    box-shadow: none;*/
 	width: 90%;
@@ -106,9 +113,11 @@ html { background: #33559B; }
 }
 
 #main .widget {
-    background: #CDE6F5;
+    background: white;
     border-radius: 10px; 
     padding: 20px;
+    border: #d7d9e8 solid 1px;
+    box-shadow: inset 0 -3px 3px #cde6f5;
 }
 
 .left-sidebar #content {
@@ -126,10 +135,6 @@ html { background: #33559B; }
 
 .left-sidebar #secondary {
 	margin-left: 4.5%;
-}
-#main .widget {
-	background: rgb(253,253,255);
-	border: gray solid 1px;
 }
 
 .singular .hentry {

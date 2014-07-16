@@ -5,7 +5,7 @@
 }
 #site-title { 
 	padding-left: 0;
-	padding-right: 170px;
+	padding-right: 100px;
 }
 #site-description { 
 	margin: 0;
@@ -13,9 +13,11 @@
 }
 #access ul {
 	padding-right: 1.4%;
-	padding-left: 0;
+	padding-left: 20%;
 }
 #branding #searchform {
 	right: auto;
 	left: 5.6%;
 }
+
+code { direction: ltr; }
